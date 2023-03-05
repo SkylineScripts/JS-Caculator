@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(1, 1, 32);
+}
+#factor {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#range {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#one {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+#two {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+
+}
+#result {
+    width: 215px;
+}

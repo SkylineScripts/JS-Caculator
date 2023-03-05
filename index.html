@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Factoring Caculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<html>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <meta charset="UTF-8" />
 
   <body>
-    <input id="bottom" placeholder="Bottom Number" />
-    <input id="top" placeholder="Top Number" />
-    <button id="clear" onclick="Clear()">Clear All</button>
-    <button id="function" onclick="Factor()">Factor</button>
+    <h1 id="one">Factor</h1>
+    <div id="factor">
+      <input value="" id="bottom" placeholder="Bottom Number" />
+      <input value="" id="top" placeholder="Top Number" />
+      <input value="" id="i" placeholder="i = ; y = ;" />
+      <button id="function" onclick="ab()">Function</button>
+      <button id="clear" onclick="Clear()">Clear All</button>
+    </div>
+    <h1 id="two">Range</h1>
+    <div id="range">
+      <input value="" id="range1" placeholder="Range 1" />
+      <input value="" id="range2" placeholder="Range 2" />
+      <input value="" id="result" placeholder="Result" />
+      <button id="Ranges" onclick="Range()">Function</button>
+      <button id="allclear" onclick="ClearRange()">Clear All</button>
+    </div>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
